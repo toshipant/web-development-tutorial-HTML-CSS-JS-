@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="">
+        <label for="name">Name</label>
+        <div>
+            <!-- we can also use br tag but it is recommmended to use div instead of br -->
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>   
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">       
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus"> 
+            <!-- number in input type accepts e for exponents other than this, no alphabets are acceptable       -->
+        </div>
+        <br>
+        <div>
+            Are you eligible: <input type="checkbox" name="myEligibilty">  
+                 <!-- if we want this area to be checked then we can use checked after name  -->
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender">    Female <input type="radio" name="myGender">   Other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Write about yourself: 
+            <br><textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf">Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">   
+            <input type="reset" value="Reset Now">           
+        </div>
+    </form>
+</body>
+</html>
