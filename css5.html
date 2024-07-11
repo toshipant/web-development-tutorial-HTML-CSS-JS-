@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height,Width,Borders and Background</title>
+    <style>
+        #firstpara{
+            background-color: red;
+            height: 100px;
+            width: 455px;
+            /* border-color: green;
+            border-style: solid;
+            border-width: 4px; 
+            we can write the above three lines into one line code*/
+            border: 4px solid green;
+            border-radius: 11px; /*For round edges */
+        }
+        #secondpara{
+            background-color: aquamarine;
+            height: 100px;
+            width: 455px;
+            border-top: 2px solid violet ;
+            border-bottom: 2px solid rgb(180, 197, 30);
+            border-right: 2px solid rgb(209, 10, 10);
+            border-left: 2px solid rgb(59, 34, 170);
+        }
+        #thirdpara{
+            height: 500px;
+            width: 455px;
+            background-image: url(./images.jpeg);
+            border: 2px solid darkblue;
+            background-repeat: no-repeat;  /*repeat-x and repeat-y will make it repeat in x and y axis*/
+            background-position: center center;
+        }
+    </style>
+</head>
+<body>
+    <h3>This is heading</h3>
+    <p id="firstpara">This is paragraph</p>
+
+    <h3>This is second heading</h3>
+    <p id="secondpara">This is my second paragraph</p>
+
+    <h3>This is third heading</h3>
+    <p id="thirdpara">This is my third paragraph</p>
+</body>
+</html>
